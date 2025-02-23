@@ -5,10 +5,13 @@
   "homepage": "https://github.com/fgtucv/event_booster-project",
   "scripts": {
     "start": "parcel ./src/index.html --no-cache",
-    "build": "parcel build ./src/*.html --no-cache --public-url /event_booster-project/"
+    "build": "parcel build ./src/*.html --no-cache --public-url /event_booster-project/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@pnotify/core": "^5.2.0",
+    "gh-pages": "^6.3.0",
     "parcel": "^2.13.3"
   }
 }
