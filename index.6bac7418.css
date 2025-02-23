@@ -1,0 +1,52 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+input {
+  outline: none;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.header {
+  background-color: #8a2be2;
+  padding: 100px 0;
+}
+
+.searc-input {
+  border: none;
+  border-radius: 50px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  display: block;
+}
+/*# sourceMappingURL=index.6bac7418.css.map */
